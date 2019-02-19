@@ -1,0 +1,24 @@
+train_net: "models/VGGNet/widerface/refinedet_vgg16_320x320/train.prototxt"
+#test_net: "models/VGGNet/widerface/refinedet_vgg16_320x320/test.prototxt"
+#test_iter: 100
+#test_interval: 500
+base_lr: 0.0010000000475
+display: 10
+max_iter: 120000
+lr_policy: "multistep"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+snapshot: 5000
+snapshot_prefix: "models/VGGNet/widerface/refinedet_vgg16_320x320/widerface_refinedet_vgg16_320x320"
+solver_mode: GPU
+device_id: 0
+debug_info: false
+snapshot_after_train: true
+average_loss: 10
+stepvalue: 80000
+stepvalue: 100000
+stepvalue: 120000
+iter_size: 1
+type: "SGD"
+
