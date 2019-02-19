@@ -29,7 +29,9 @@ fork from https://github.com/sfzhang15/RefineDet
    网盘链接: https://pan.baidu.com/s/10ZFFIgbp7H3bveyViMwkug#list/path=%2F<br/>
    密码：uc5s
 2. 解压.<br>
-   unzip XXX.zip
+  ```shell
+  unzip XXX.zip
+  ```
 3. 生成VOC格式数据.<br>
   ```shell
   python face_labels.py
